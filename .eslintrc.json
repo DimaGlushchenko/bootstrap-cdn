@@ -5,6 +5,9 @@
         "es6": true
     },
     "extends": "eslint:recommended",
+    "plugins": [
+        "security"
+    ],
     "rules": {
         "array-bracket-spacing": "error",
         "array-callback-return": "error",
